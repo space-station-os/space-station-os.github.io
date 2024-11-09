@@ -38,7 +38,73 @@ nav a:hover {
 }
 
 main {
+    padding: 20px;/* Body text styling */
+body {
+    font-family: "Helvetica", "Arial", "Rodin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header, h1, h2, h3 {
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
+    color: #002147; /* Dark Blue */
+    font-weight: bold;
+}
+
+header {
+    background-color: #002147; /* Dark Blue */
+    color: #FFFFFF; /* White text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #002147; /* Dark Blue */
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    font-family: "Trebuchet MS", "Verdana", sans-serif; /* Match header font */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #00AEEF; /* Light Blue */
+}
+
+/* Section styling */
+main {
     padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #002147; /* Dark Blue */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 10px 0;
+}
+
 }
 
 section {
