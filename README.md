@@ -12,9 +12,14 @@ To set up Space Station OS:
 - **Ubuntu 22.04**
 - **ROS 2 Humble** (desktop install)
 
-After cloning this repository, source the ROS2 setup in your terminal, e.g., `source \opt\ros\humble\setup.bash`
+After cloning this repository, source the ROS2 setup in your terminal, e.g., 
+`source \opt\ros\humble\setup.bash`
 
-Then, `colcon build` from the top level of the repository. Afterward, each terminal must also source the install, i.e., `source install\setup.bash`
+Then, `colcon build` from the top level of the repository. 
+
+Afterward, each terminal must also source the install, i.e., `source install\setup.bash`
+
+
 ---
 
 ## Demos
