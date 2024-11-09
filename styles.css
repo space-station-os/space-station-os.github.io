@@ -17,8 +17,8 @@ body {
     margin-bottom: 10px; /* Adds space between logo and title */
 }
 
-/* Header styling */
-header {
+/* Top navigation styling */
+.top-nav {
     background-color: #002147; /* Dark Blue */
     color: #FFFFFF; /* White text */
     padding: 20px 0; /* Extra padding for spacing */
@@ -32,7 +32,7 @@ h1 {
     font-weight: bold;
 }
 
-/* Navigation styling */
+/* Sidebar navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -52,13 +52,12 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-    font-size: 1.6em; 
+    font-size: 1.5em; /* Adjusted for readability */
 }
 
 nav a:hover {
     background-color: #00AEEF; /* Light Blue */
 }
-
 
 /* Main and Section styling */
 main {
