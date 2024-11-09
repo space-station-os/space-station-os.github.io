@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requirements - Space Station OS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <h1>Space Station OS</h1>
+    </nav>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="requirements.html">Requirements</a></li>
+                <li><a href="demos.html">Demos</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="todos.html">TODOs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <section id="requirements">
+                <h2>Requirements</h2>
+                <p>To set up Space Station OS:</p>
+                <ul>
+                    <li>Ubuntu 22.04</li>
+                    <li>ROS 2 Humble (desktop install)</li>
+                </ul>
+                <p>After cloning this repository, source the ROS2 setup in your terminal:</p>
+                <pre><code>source /opt/ros/humble/setup.bash</code></pre>
+                <p>Then, build the workspace from the top level of the repository:</p>
+                <pre><code>colcon build</code></pre>
+                <p>Afterward, each terminal must also source the install:</p>
+                <pre><code>source install/setup.bash</code></pre>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>© 2024 Space Station OS. Built with GitHub Pages.</p>
+    </footer>
+</body>
+</html>
