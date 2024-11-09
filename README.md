@@ -26,9 +26,9 @@ Afterward, each terminal must also source the install, i.e., `source install\set
 
 ### Demo 1a - Nauka Incident
 
-Recreates the ISS Nauka incident for fault analysis. First, please ensure you, e.g., `source \opt\ros\humble\setup.bash`
+Recreates the ISS Nauka incident for fault analysis.
 
-Run commands in multiple terminals:
+Run commands in multiple terminals (after sourcing):
 
 - **Terminal 1**: `$ ros2 run space_station_gnc demo1a_nauka_incident_estimate`
 - **Terminal 2**: `$ ros2 launch space_station_gnc launch_gnc.py`
@@ -45,6 +45,13 @@ Run commands in multiple terminals:
 
 ---
 
+## TODOs 
+- **Specify joints in URDF for Isaac Sim**
+- **Decouple URDF components to isolate mechanics/physics**
+- **Create Action Graph generator for Isaac Sim**
+- **Implement simple method for deploying environmental dynamics**
+
+---
 ## Contact
 
 For further information, please reach out to us at: [info@spacestationos.org](mailto:info@spacestationos.org)
