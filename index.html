@@ -16,6 +16,7 @@
                 <li><a href="#requirements">Requirements</a></li>
                 <li><a href="#demos">Demos</a></li>
                 <li><a href="#features">Features</a></li>
+                <li><a href="#todos">TODOs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -26,6 +27,7 @@
             <h2>About Space Station OS</h2>
             <p>Space Station OS is an open-source platform advancing space station software, designed to facilitate operational research, simulation, and real-time control for space habitats. It leverages the ROS 2 framework and provides tools for tasks such as Fault Detection, Isolation, and Recovery (FDIR) with practical demos simulating space station scenarios.</p>
         </section>
+        
         <section id="requirements">
             <h2>Requirements</h2>
             <p>To set up Space Station OS:</p>
@@ -33,7 +35,14 @@
                 <li>Ubuntu 22.04</li>
                 <li>ROS 2 Humble (desktop install)</li>
             </ul>
+            <p>After cloning this repository, source the ROS2 setup in your terminal, e.g.,</p>
+            <pre><code>source /opt/ros/humble/setup.bash</code></pre>
+            <p>Then, build the workspace from the top level of the repository:</p>
+            <pre><code>colcon build</code></pre>
+            <p>Afterward, each terminal must also source the install:</p>
+            <pre><code>source install/setup.bash</code></pre>
         </section>
+        
         <section id="demos">
             <h2>Demos</h2>
             <h3>Demo 1a - Nauka Incident</h3>
@@ -44,6 +53,7 @@
                 <li><code>$ ros2 run rviz2 rviz2</code> - Terminal 3 (launches RVIZ)</li>
             </ul>
         </section>
+        
         <section id="features">
             <h2>Features</h2>
             <ul>
@@ -53,7 +63,18 @@
                 <li>Community-driven, open-source architecture</li>
             </ul>
         </section>
+
+        <section id="todos">
+            <h2>TODOs</h2>
+            <ul>
+                <li>Specify joints in URDF for Isaac Sim</li>
+                <li>Decouple URDF components to isolate mechanics/physics</li>
+                <li>Create Action Graph generator for Isaac Sim</li>
+                <li>Implement simple method for deploying environmental dynamics</li>
+            </ul>
+        </section>
     </main>
+
     <footer>
         <p>Contact us at <a href="mailto:info@spacestationos.org">info@spacestationos.org</a></p>
     </footer>
