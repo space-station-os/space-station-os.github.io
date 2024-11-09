@@ -52,11 +52,13 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+    font-size: 1.2em; /* Increase font size by 20% */
 }
 
 nav a:hover {
     background-color: #00AEEF; /* Light Blue */
 }
+
 
 /* Main and Section styling */
 main {
