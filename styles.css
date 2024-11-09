@@ -1,68 +1,38 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF; /* White background */
-    color: #333333; /* Dark gray text for readability */
-}
-
-header {
-    background-color: #002147; /* Dark Blue */
-    color: #FFFFFF; /* White text */
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #002147; /* Dark Blue */
-}
-
-nav li {
-    margin: 0 15px;
-}
-
-nav a {
-    color: #FFFFFF; /* White text */
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-}
-
-nav a:hover {
-    background-color: #00AEEF; /* Light Blue */
-}
-
-main {
-    padding: 20px;/* Body text styling */
+/* Body text styling */
 body {
     font-family: "Helvetica", "Arial", "Rodin", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF;
-    color: #333333;
+    background-color: #FFFFFF; /* White background */
+    color: #333333; /* Dark gray text for readability */
     line-height: 1.6;
 }
 
-/* Header styling */
-header, h1, h2, h3 {
-    font-family: "Trebuchet MS", "Verdana", sans-serif;
-    color: #002147; /* Dark Blue */
-    font-weight: bold;
+/* Logo styling */
+.logo {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the logo horizontally */
+    margin-bottom: 10px; /* Adds space between logo and title */
 }
 
+/* Header styling */
 header {
     background-color: #002147; /* Dark Blue */
     color: #FFFFFF; /* White text */
-    padding: 10px 0;
+    padding: 20px 0; /* Extra padding for spacing */
     text-align: center;
 }
 
-/* Navigation links */
+h1 {
+    margin: 0;
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
+    color: #002147; /* Dark Blue for headers */
+    font-weight: bold;
+}
+
+/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -88,7 +58,7 @@ nav a:hover {
     background-color: #00AEEF; /* Light Blue */
 }
 
-/* Section styling */
+/* Main and Section styling */
 main {
     padding: 20px;
 }
@@ -98,19 +68,6 @@ section {
 }
 
 /* Footer styling */
-footer {
-    background-color: #002147; /* Dark Blue */
-    color: #FFFFFF; /* White text */
-    text-align: center;
-    padding: 10px 0;
-}
-
-}
-
-section {
-    margin-bottom: 20px;
-}
-
 footer {
     background-color: #002147; /* Dark Blue */
     color: #FFFFFF; /* White text */
