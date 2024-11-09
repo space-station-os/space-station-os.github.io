@@ -12,13 +12,18 @@ To set up Space Station OS:
 - **Ubuntu 22.04**
 - **ROS 2 Humble** (desktop install)
 
+After cloning this repository, source the ROS2 setup in your terminal, e.g., `source \opt\ros\humble\setup.bash`
+
+Then, `colcon build` from the top level of the repository. Afterward, each terminal must also source the install, i.e., `source install\setup.bash`
 ---
 
 ## Demos
 
 ### Demo 1a - Nauka Incident
 
-Recreates the ISS Nauka incident for fault analysis. Run commands in multiple terminals:
+Recreates the ISS Nauka incident for fault analysis. First, please ensure you, e.g., `source \opt\ros\humble\setup.bash`
+
+Run commands in multiple terminals:
 
 - **Terminal 1**: `$ ros2 run space_station_gnc demo1a_nauka_incident_estimate`
 - **Terminal 2**: `$ ros2 launch space_station_gnc launch_gnc.py`
