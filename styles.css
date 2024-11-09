@@ -10,7 +10,7 @@ body {
 
 /* Logo styling */
 .logo {
-    width: 80px; /* Adjust size as needed */
+    width: 160px; /* Adjust size */
     height: auto;
     display: block;
     margin: 0 auto; /* Centers the logo horizontally */
