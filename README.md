@@ -1,4 +1,4 @@
-# ![Space Station OS Logo](assets/logo/spacedata_logo.png)
+<img src="assets/logo/spacedata_logo.png" alt="Space Station OS Logo" width="25%" />
 
 # Space Station OS
 
