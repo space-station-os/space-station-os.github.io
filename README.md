@@ -1,4 +1,6 @@
-<img src="assets/logo/spacedata_logo.png" alt="Space Station OS Logo" width="25%" />
+<img src="assets/logo/SSOS_LogoMark_TextSide_Black.png" alt="Space Station OS Logo" width="25%" />
+
+
 
 # Space Station OS
 
