@@ -1,4 +1,4 @@
-<img src="assets/logo/SSOS_LogoMark_TextSide_Black.png" alt="Space Station OS Logo" width="50%" />
+<img src="assets/logo/SSOS_LogoMark_TextSide_Black_BGTransparent.png" alt="Space Station OS Logo" width="50%" />
 
 
 
