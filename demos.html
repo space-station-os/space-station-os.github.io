@@ -3,38 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demos - Space Station OS</title>
+    <title>Demos - Space Station OS Documentation</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <nav class="top-nav">
-        <img src="assets/logo/SSOS_LogoMark_TextSide_White_BGBlack.png" alt="Space Station OS Logo" class="logo">
-        <h1>Space Station OS</h1>
-    </nav>
+    <header class="top-nav">
+        <div class="nav-header">
+            <img src="assets/logo/SSOS_LogoMark_TextSide_White_BGBlack.png" alt="Space Station OS Logo" class="logo">
+            <h1>Space Station OS</h1>
+        </div>
+    </header>
+
     <div class="container">
         <aside class="sidebar">
+            <h2>Documentation</h2>
             <ul>
-                <li><a href="index.html">Introduction</a></li>
-                <li><a href="requirements.html">Requirements</a></li>
-                <li><a href="demos.html">Demos</a></li>
+                <!-- Old Subpages -->
+                <li>
+                    <a href="#" class="expandable open">Getting Started <span class="icon">-</span></a>
+                    <ul class="nested visible">
+                        <li><a href="requirements.html">Requirements</a></li>
+                        <li><a href="setup.html">Setup</a></li>
+                    </ul>
+                </li>
+                <li><a href="demos.html" class="active">Demos</a></li>
                 <li><a href="features.html">Features</a></li>
                 <li><a href="todos.html">TODOs</a></li>
+
+                <!-- New Subpages -->
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="concepts.html">Concepts</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="release_notes.html">Release Notes</a></li>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </aside>
         <main class="content">
-            <section id="demos">
-                <h2>Demos</h2>
-                <h3>Demo 1a - Nauka Incident</h3>
-                <p>Recreates the ISS Nauka incident for fault analysis. Run commands in multiple terminals:</p>
+            <h2>Demos</h2>
+            <p>Explore practical demonstrations of Space Station OS in action. These demos showcase various features and capabilities in simulated environments.</p>
+
+            <h3>Demo 1a - Nauka Incident</h3>
+            <p>This demo recreates the ISS Nauka incident for fault analysis. Follow these steps:</p>
+            <ol>
+                <li>Run the following commands in separate terminals after sourcing your ROS 2 environment:</li>
                 <ul>
-                    <li><code>$ ros2 run space_station_gnc demo1a_nauka_incident_estimate</code> - Terminal 1</li>
-                    <li><code>$ ros2 launch space_station_gnc launch_gnc.py</code> - Terminal 2</li>
-                    <li><code>$ ros2 run rviz2 rviz2</code> - Terminal 3 (launches RVIZ)</li>
+                    <li><code>ros2 run space_station_gnc demo1a_nauka_incident_estimate</code> - <strong>Terminal 1</strong></li>
+                    <li><code>ros2 launch space_station_gnc launch_gnc.py</code> - <strong>Terminal 2</strong></li>
+                    <li><code>ros2 run rviz2 rviz2</code> - <strong>Terminal 3</strong> (Launches RVIZ)</li>
                 </ul>
-            </section>
+                <li>Observe the simulation and verify the response process.</li>
+            </ol>
+
+            <h3>Future Demos</h3>
+            <p>Additional demonstration scenarios will be added here, showcasing advanced capabilities such as multi-agent coordination, complex FDIR workflows, and enhanced real-time simulations.</p>
         </main>
     </div>
+
     <footer>
+        <p>Contact us at <a href="mailto:info@spacestationos.org">info@spacestationos.org</a></p>
         <p>© 2024 Space Station OS. Built with GitHub Pages.</p>
     </footer>
 </body>

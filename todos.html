@@ -3,33 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODOs - Space Station OS</title>
+    <title>TODOs - Space Station OS Documentation</title>
     <link rel="stylesheet" href="styles.css">
-    <meta http-equiv="refresh" content="3; url=index.html">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <nav class="top-nav">
-        <img src="assets/logo/SSOS_LogoMark_TextSide_White_BGBlack.png" alt="Space Station OS Logo" class="logo">
-        <h1>Space Station OS</h1>
-    </nav>
+    <header class="top-nav">
+        <div class="nav-header">
+            <img src="assets/logo/SSOS_LogoMark_TextSide_White_BGBlack.png" alt="Space Station OS Logo" class="logo">
+            <h1>Space Station OS</h1>
+        </div>
+    </header>
+
     <div class="container">
         <aside class="sidebar">
+            <h2>Documentation</h2>
             <ul>
-                <li><a href="index.html">Introduction</a></li>
-                <li><a href="requirements.html">Requirements</a></li>
+                <!-- Old Subpages -->
+                <li>
+                    <a href="#" class="expandable open">Getting Started <span class="icon">-</span></a>
+                    <ul class="nested visible">
+                        <li><a href="requirements.html">Requirements</a></li>
+                        <li><a href="setup.html">Setup</a></li>
+                    </ul>
+                </li>
                 <li><a href="demos.html">Demos</a></li>
                 <li><a href="features.html">Features</a></li>
-                <li><a href="todos.html">TODOs</a></li>
+                <li><a href="todos.html" class="active">TODOs</a></li>
+
+                <!-- New Subpages -->
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="concepts.html">Concepts</a></li>
+                <li><a href="troubleshooting.html">Troubleshooting</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="release_notes.html">Release Notes</a></li>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </aside>
         <main class="content">
-            <section id="todos">
-                <h2>TODOs</h2>
-                <p>This page is under construction. You will be redirected to the home page shortly.</p>
-            </section>
+            <h2>TODOs</h2>
+            <p>Here are the tasks and upcoming features we are working on to improve Space Station OS:</p>
+            <ul>
+                <li>Add advanced fault detection tools.</li>
+                <li>Integrate new ROS 2 features.</li>
+                <li>Improve documentation and community tutorials.</li>
+                <li>Expand support for additional simulation scenarios.</li>
+            </ul>
         </main>
     </div>
+
     <footer>
+        <p>Contact us at <a href="mailto:info@spacestationos.org">info@spacestationos.org</a></p>
         <p>© 2024 Space Station OS. Built with GitHub Pages.</p>
     </footer>
 </body>
