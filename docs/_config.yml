@@ -1,0 +1,36 @@
+title: Space Station OS Documentation
+description: Comprehensive documentation for Space Station OS
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+permalink: pretty
+
+collections:
+  docs:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+
+nav_order:
+  - index.md
+  - requirements.md
+  - setup.md
+  - features.md
+  - demos.md
+  - todos.md
+  - packages.md
+  - concepts.md
+  - troubleshooting.md
+  - blogs.md
+  - release_notes.md
+  - faq.md
+  - about.md
