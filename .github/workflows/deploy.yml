@@ -1,33 +1,35 @@
-name: Deploy Jekyll Site to GitHub Pages
+name: Deploy Sphinx Docs to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Deploy when pushing to the main branch
+      - main  # Trigger deployment when pushing to main
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      
+      - name: Set Up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      
+      - name: Install Sphinx and Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sphinx myst-parser sphinx_rtd_theme
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'  # Use Ruby 3.1 (or compatible version)
+      - name: Build HTML
+        run: |
+          sphinx-build -b html source/ _build/html
 
-    - name: Install Jekyll and Bundler
-      run: |
-        gem install bundler jekyll
-
-    - name: Build Site
-      run: |
-        jekyll build --destination ./_site
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
+          publish_branch: gh-pages
+          force_orphan: true  # Deletes previous history (keeps gh-pages clean)
