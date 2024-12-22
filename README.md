@@ -1,6 +1,16 @@
 <img src="source/assets/logo/SSOS_LogoMark_TextSide_White_BGBlack.png" alt="Space Station OS Logo" width="50%" />
 
+# Source for the Space Station OS Documentation site　https://space-station-os.github.io/
 
+## To edit contents
+- Go to "source" 
+- Find the appropriate .md file for the site you want to edit
+- **After edit issue for pull request for the page**
+
+## To edit stracture of the site (e.g., adding documentation for a demo)
+- TBD (talk to Chris and Hiroki for this)
+
+## The rest will be move to the documentation site:
 
 # Space Station OS
 
