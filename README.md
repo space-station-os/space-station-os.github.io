@@ -4,7 +4,7 @@
 
 ## To edit contents
 - Go to "source" 
-- Find the appropriate .md file for the site you want to edit
+- Find an appropriate .md file for the site you want to edit
 - **After edit issue for pull request for the page**
 
 ## To edit stracture of the site (e.g., adding documentation for a demo)
