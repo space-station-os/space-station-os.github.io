@@ -1,6 +1,6 @@
-# Engineering requirements (Features, Use Cases)  
+# Engineering requirements
 
-## Feature Requests:  
+**Feature Requests:**
 
 •  Motivate reason (need, interest) with Use Case  
 
@@ -16,7 +16,7 @@
 
 •  Use (justify) verification and validation metrics for features
 
-## Object-Oriented Design:
+**Object-Oriented Design:**
 
 •  Classify modules as classes or objects (e.g., sensors, actuators, controllers).
 
