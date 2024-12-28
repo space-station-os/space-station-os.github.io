@@ -9,7 +9,9 @@ nav_order: 3
 
 Explore practical demonstrations of Space Station OS in action.
 
-## Demo 1a - Nauka Incident
+---
+
+**Demo 1a - Nauka Incident**
 
 This demo recreates the ISS Nauka incident for fault analysis. Follow these steps:
 
@@ -42,7 +44,7 @@ This demo recreates the ISS Nauka incident for fault analysis. Follow these step
 
 ---
 
-## Future Demos
+**Future Demos**
 More demonstration scenarios will be added to showcase advanced features, including:
 - Multi-agent coordination
 - Fault Detection, Isolation, and Recovery (FDIR)
