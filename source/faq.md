@@ -16,7 +16,7 @@ A: Please contact us through GitHub to discuss how you can get involved. We also
 
 **Q: I cannot find where to start contributing.**
 
-A: Start by visiting our [GitHub repository](https://github.com/space-station-os/space-station-os) and reviewing the "Contributing" section. This provides a step-by-step guide for new contributors.
+A: Start by visiting our [GitHub repository](https://github.com/space-station-os/space_station_os) and reviewing the "Contributing" section. This provides a step-by-step guide for new contributors.
 
 **Simulation**
 
@@ -40,13 +40,13 @@ A: Please visit our [GitHub Issues page](https://github.com/space-station-os/spa
 
 **Q: Where can I find instructions to install Space Station OS?**
 
-A: You can find installation instructions in the [GitHub repository](https://github.com/space-station-os/space-station-os). To run a particular demo, refer to the README in the root of the corresponding demo directory. Instructions for running an integrated ISS simulation are under development (TBD).
+A: You can find installation instructions in the [GitHub repository](https://github.com/space-station-os/space_station_os). To run a particular demo, refer to the README in the root of the corresponding demo directory. Instructions for running an integrated ISS simulation are under development (TBD).
 
 **Subsystems**
 
 **Q: Where can I find modules for ECLSS (Environmental Control and Life Support Systems)?**
 
-A: These modules are currently under construction. Join the discussion and contribute ideas on [GitHub](https://github.com/space-station-os/space-station-os).
+A: These modules are currently under construction. Join the discussion and contribute ideas on [GitHub](https://github.com/space-station-os/space_station_os).
 
 **Licensing and Usage**
 
