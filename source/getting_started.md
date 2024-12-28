@@ -5,7 +5,7 @@ nav_order: 1
 -->
 
 # Getting started
-## &nbsp;&nbsp;[Community Manners](community_manners)
+## &nbsp;&nbsp;[Community Manners](community_manners.md)
 
 ## &nbsp;&nbsp;[Requirements](requirements.md)
 
