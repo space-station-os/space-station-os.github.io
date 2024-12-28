@@ -1,4 +1,4 @@
-# Manners for Joining a Community
+# Community Manners
 
 **Maintain professionalism in communications**  
 
