@@ -4,7 +4,7 @@ title: Coding Standards
 nav_order: 10
 -->
 
-# Technologies:
+**Technologies**
 
 • Python: Follow PEP8 guidelines
 
@@ -12,7 +12,7 @@ nav_order: 10
 
 • MATLAB: Ensure readability, vectorized operations, and comments using proper indentation
 
-# Version Control:
+**Version Control**
 
 •Use meaningful commit messages
 
