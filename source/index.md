@@ -15,18 +15,20 @@ Welcome to the **Space Station OS** documentation. This site serves as the prima
 :maxdepth: 2
 :caption: Contents:
 
-requirements
-setup
-features
+getting_started
+
+what_is_SSOS
+
 demos
-packages
-concepts
-troubleshooting
+
+integration
+
+resources
+
+technical_meetings
+
 blogs
-release_notes
-faq
-about
-todos
+
 ```
 
 ---
@@ -50,7 +52,7 @@ todos
 2. **Follow Setup Guides** – Learn to set up Space Station OS by visiting the [setup guide](setup.md).
 3. **Run Demos** – Experiment with practical scenarios in the [demos section](demos.md).
 4. **Explore Features** – Familiarize yourself with the core [features](features.md).
-5. **Expand and Contribute** – Dive deeper into [concepts](concepts.md) or [packages](packages.md).
+5. **Expand and Contribute** – Dive deeper into [concepts](concepts.md) or [How to contribute](how_to_contribute.md).
 
 ---
 
