@@ -10,11 +10,11 @@ IV. Design Principles in Testing: Test derived classes through their base class 
 
 V. Automated Testing:
 
-i. Python: Use pytestfor unit and integration tests
+&nbsp;&nbsp;i. Python: Use pytestfor unit and integration tests
 
-ii. C++: Employ Google Test Framework
+&nbsp;&nbsp;ii. C++: Employ Google Test Framework
 
-iii. Test Coverage: Maintain >85% (?) test coverage for critical modules
+&nbsp;&nbsp;iii. Test Coverage: Maintain >85% (?) test coverage for critical modules
 
-iv. Hardware Simulation: Validate numerical consistency with physical principles
+&nbsp;&nbsp;iv. Hardware Simulation: Validate numerical consistency with physical principles
 
