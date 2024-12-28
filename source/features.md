@@ -8,7 +8,9 @@ nav_order: 3
 
 Space Station OS offers a range of advanced features designed to enhance space station operations, simulations, and control systems.
 
-## Key Features
+---
+
+**Key Features**
 
 - **Advanced Fault Detection, Isolation, and Recovery (FDIR) Tools**  
   Provides comprehensive tools to identify, isolate, and recover from system faults, ensuring high reliability and minimal downtime.
@@ -24,7 +26,7 @@ Space Station OS offers a range of advanced features designed to enhance space s
 
 ---
 
-## Why These Features Matter
+**Why These Features Matter**
 
 Space Station OS is designed to provide critical infrastructure for space habitats, ensuring mission success through fault-tolerant designs, flexible system architectures, and real-time operational feedback.
 
