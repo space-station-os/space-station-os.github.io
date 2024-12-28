@@ -47,7 +47,7 @@ A: The project uses the Apache 2.0 license, which permits usage, modification, a
 
 **Q: My simulation crashes during startup. What should I do?**
 
-A: Check the troubleshooting section of the README file. Common issues include incompatible ROS2 versions or missing dependencies. For unresolved issues, raise a GitHub issue with logs and details.
+A: Check the [troubleshooting section](troubleshooting.md) of the README file. Common issues include incompatible ROS2 versions or missing dependencies. For unresolved issues, raise a GitHub issue with logs and details.
 
 **Contributing Beyond Code**
 
