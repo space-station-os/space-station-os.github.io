@@ -43,9 +43,9 @@ linkedin
 1. **Community manners** – Please keep the following [community manners](community_manners.md)
 2. **Review Requirements** – Ensure your system meets all [requirements](requirements.md).
 3. **Follow Setup Guides** – Learn to set up Space Station OS by visiting the [setup guide](setup.md).
-4. **How to contribute** – There are six ways to contibute SSOS development as shown in [how_to_contribute](how_to_contribute.md)
-5. **Coding rules** –  Please follow the [coding rules](coding_rule.md)
-6. **Testing Standards**  –  Please follow the [testing standards](testing_standards.md)
+4. **How to contribute** – There are six ways to contibute SSOS development as shown in [how to contribute](how_to_contribute.md).
+5. **Coding rules** –  Please follow the [coding rules](coding_rule.md).
+6. **Testing Standards**  –  Please follow the [testing standards](testing_standards.md).
 
 ---
 
