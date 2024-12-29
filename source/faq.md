@@ -23,7 +23,7 @@ A: We are currently preparing to use NVIDIA Isaac Sim in an Ubuntu environment f
 
 **Q: Is this Space Station OS project officially supported by Open Robotics?**
 
-A: We reached out to Open Robotics for confirmation in November 2024 and are awaiting an official response.
+A: We reached out to Open Robotics for confirmation in November 2024 and are discussing.
 
 **Demos**
 
