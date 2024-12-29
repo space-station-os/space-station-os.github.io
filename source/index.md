@@ -56,10 +56,8 @@ linkedin
 
 ---
 
-## Home page of Space Station OS
 **[Home page](https://spacestationos.com/)**
 
-## Github of Space Station OS
 **[Github](https://github.com/space-station-os)**
 
 ---
