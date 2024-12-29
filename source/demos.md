@@ -11,36 +11,7 @@ Explore practical demonstrations of Space Station OS in action.
 
 ---
 
-**Demo 1a - Nauka Incident**
-
-This demo recreates the ISS Nauka incident for fault analysis. Follow these steps:
-
-1. **Source ROS 2 setup**:
-   ```bash
-   source /opt/ros/humble/setup.bash
-   ```
-
-2. **Clone the repository**:
-   ```bash
-   git clone https://github.com/space-station-os/space-station-os.git
-   cd space-station-os
-   ```
-
-3. **Build the workspace**:
-   ```bash
-   colcon build
-   source install/setup.bash
-   ```
-
-4. **Run the simulation**:
-   ```bash
-   ros2 run space_station_gnc demo1a_nauka_incident_estimate
-   ```
-
-5. **Launch visualizer**:
-   ```bash
-   ros2 run rviz2 rviz2
-   ```
+**[Demo#1: Estimates of Nauka incident on ISS in July 2021 and more](https://github.com/space-station-os/demo_nauka_incident2021_estimate)**
 
 ---
 
