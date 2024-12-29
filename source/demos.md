@@ -20,3 +20,5 @@ More demonstration scenarios will be added to showcase advanced features, includ
 - Multi-agent coordination
 - Fault Detection, Isolation, and Recovery (FDIR)
 - Real-time simulations of complex space station environments
+- ECLSS system failures
+- Health management of propulsion system
