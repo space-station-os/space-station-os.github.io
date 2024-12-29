@@ -56,6 +56,13 @@ linkedin
 
 ---
 
+## Home page of Space Station OS
+**[Home page](https://spacestationos.com/)**
+
+## Github of Space Station OS
+**[Github](https://github.com/space-station-os)**
+
+---
 For more information, contact us at [info@spacestationos.org](mailto:info@spacestationos.org).
 
 © 2024 Space Station OS. Built with GitHub Pages.
