@@ -12,7 +12,7 @@ Welcome to the **Space Station OS** documentation. This site serves as the prima
 ## Table of Contents
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 :caption: Contents:
 
 getting_started
