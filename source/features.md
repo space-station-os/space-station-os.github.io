@@ -10,6 +10,11 @@ Space Station OS offers a range of advanced features designed to enhance space s
 
 ---
 
+![Integration](https://github.com/user-attachments/assets/e30ca85a-89a8-40ff-a35f-75b7f7dd4c48)
+![Integration2](https://github.com/user-attachments/assets/2d8cf8c0-d8a6-41c3-9c20-86ce2ce627d3)
+
+
+---
 **Key Features**
 
 - **Advanced Fault Detection, Isolation, and Recovery (FDIR) Tools**  
