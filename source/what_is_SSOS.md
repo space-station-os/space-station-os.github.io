@@ -6,8 +6,8 @@ nav_order: 2
 
 # What is SSOS?
 
-## &nbsp;&nbsp;[Concepts](concepts.md)
+**&nbsp;&nbsp;[Concepts](concepts.md)**
 
-## &nbsp;&nbsp;[Features](features.md)
+**&nbsp;&nbsp;[Features](features.md)**
 
-## &nbsp;&nbsp;[Roadmap](roadmap.md)
+**&nbsp;&nbsp;[Roadmap](roadmap.md)**
