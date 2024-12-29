@@ -40,11 +40,12 @@ linkedin
 ---
 
 ## How to Get Started
-1. **Review Requirements** – Ensure your system meets all [requirements](requirements.md).
-2. **Follow Setup Guides** – Learn to set up Space Station OS by visiting the [setup guide](setup.md).
-3. **Run Demos** – Experiment with practical scenarios in the [demos section](demos.md).
-4. **Explore Features** – Familiarize yourself with the core [features](features.md).
-5. **Expand and Contribute** – Dive deeper into [concepts](concepts.md) or [How to contribute](how_to_contribute.md).
+1. **Community manners** – Please keep the following [community manners](community_manners.md)
+2. **Review Requirements** – Ensure your system meets all [requirements](requirements.md).
+3. **Follow Setup Guides** – Learn to set up Space Station OS by visiting the [setup guide](setup.md).
+4. **How to contribute** – There are six ways to contibute SSOS development as shown in [how_to_contribute](how_to_contribute.md)
+5. **Coding rules** –  Please follow the [coding rules](coding_rule.md)
+6. **Testing Standards**  –  Please follow the [testing standards](testing_standards.md)
 
 ---
 
