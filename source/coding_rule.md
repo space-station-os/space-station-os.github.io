@@ -4,6 +4,8 @@ title: Coding Standards
 nav_order: 10
 -->
 
+# Coding rules
+
 **Technologies**
 
 • Python: Follow PEP8 guidelines
