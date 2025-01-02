@@ -6,11 +6,13 @@ nav_order: 2
 
 # What is SSOS?
 
-**&nbsp;&nbsp;[Concepts](concepts.md)**
+**&nbsp;&nbsp;[Concepts](https://en.spacedata.jp/news/202411_ssos)**
 
 **&nbsp;&nbsp;[Features](features.md)**
 
 **&nbsp;&nbsp;[Roadmap](roadmap.md)**
+
+**&nbsp;&nbsp;[Lead members](leadmember.md)**
 
 
 
