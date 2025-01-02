@@ -27,7 +27,7 @@ resources
 
 technical_meetings
 
-linkedin
+news
 
 ```
 
