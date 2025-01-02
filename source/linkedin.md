@@ -4,9 +4,17 @@ title: linkedin
 nav_order: 8
 -->
 
-# Linkedin (News of Space Staion OS)
-**[Linkedin](https://www.linkedin.com/company/space-station-os/)**
+# News of Space Staion OS
 
-For more information, contact us at [info@spacestationos.org](mailto:info@spacestationos.org).
+**Public News**
 
-© 2024 Space Station OS. Built with GitHub Pages.
+[Official Web site](https://spacestationos.com/#develop)
+
+**Technical Meeting Invitation**
+
+[ROS discourse](https://discourse.ros.org/t/space-station-os-released-a-future-where-anyone-can-develop-space-stations/40552)
+
+[Linkedin](https://www.linkedin.com/company/space-station-os/)
+
+[X](https://x.com/SpaceStationOS)
+
