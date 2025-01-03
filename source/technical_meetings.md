@@ -3,6 +3,7 @@
 We hold biweekly technical meetings every Monday at 12 PM JST (Tuesday at 12 AM UTC). Feel free to join us there.
 
 ---------
+**Technical meeting #6 (2025/1/28 0:00 JST)**
 
 **Technical meeting #5 (2025/1/14 0:00 JST)**
 
