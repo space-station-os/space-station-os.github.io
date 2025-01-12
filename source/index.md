@@ -34,8 +34,7 @@ news
 ---
 
 ## Introduction
-
-**Space Station OS** is an open-source platform designed to advance space station software, facilitating operational research, simulation, and real-time control for space habitats. The system leverages **ROS 2** to provide tools such as Fault Detection, Isolation, and Recovery (FDIR), enhancing the safety and autonomy of space environments.
+**Space Station OS** is an open-source platform for space stations, designed to control various subsystems such as thermal control, attitude control, power, heat, communication, and life support systems. It integrates these functions to optimize the entire system, exploring emergent behaviors and cross-system interactions. The platform facilitates operational research, simulation, and real-time control for space habitats, leveraging ROS 2 to provide tools like Fault Detection, Isolation, and Recovery (FDIR) to enhance the safety and autonomy of space environments.
 
 ---
 
