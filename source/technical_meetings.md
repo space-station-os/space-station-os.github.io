@@ -5,7 +5,7 @@ We hold biweekly technical meetings every Monday at 24:00 JST (Monday at 12:00 A
 ---------
 **Technical meeting #6 (2025/1/28 0:00 JST)**
 
-**Technical meeting #5 (2025/1/14 0:00 JST)**
+**[Technical meeting #5 (2025/1/14 0:00 JST)](https://github.com/user-attachments/files/18403576/technical_meeting.5_20250113.pdf)**
 
 **[Technical meeting #4 (2024/12/31 0:00 JST)](https://github.com/user-attachments/files/18307102/SSOS_Technical_Meeting_.4_20241230_a.pdf)**
 
