@@ -60,6 +60,6 @@ news
 **[Github](https://github.com/space-station-os)**
 
 ---
-For more information, contact us at [info@spacestationos.org](mailto:info@spacestationos.org).
+For more information, contact us at [info@spacestationos.org](mailto:spacestationos@spacedata.co.jp).
 
 © 2024 Space Station OS. Built with GitHub Pages.
