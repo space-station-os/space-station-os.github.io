@@ -3,6 +3,8 @@
 We hold biweekly technical meetings every Monday at 24:00 JST (Monday at 12:00 AM UTC). Feel free to join us there.
 
 ---------
+**[Technical meeting #7 (2025/2/11 0:00 JST)](https://github.com/user-attachments/files/18767647/SpaceStationMeeting007_20250210.pdf)**
+
 **Technical meeting #6 (2025/1/28 0:00 JST)**
 
 **[Technical meeting #5 (2025/1/14 0:00 JST)](https://github.com/user-attachments/files/18403576/technical_meeting.5_20250113.pdf)**
