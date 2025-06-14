@@ -16,27 +16,25 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment:
+      name: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node (for Astro build)
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Install dependencies and build site
+      - name: Install & Build Astro News
         run: |
           cd auto_astro
           npm ci
           npm run build
           cp -r dist/news ../_build/html/
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact
+      - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
           path: _build/html
@@ -44,10 +42,6 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
