@@ -1,0 +1,25 @@
+---
+import { getEntryBySlug } from 'astro:content';
+
+const { slug } = Astro.params;
+const entry = await getEntryBySlug('news', slug);
+
+if (!entry) {
+  throw new Error(`News article not found: ${slug}`);
+}
+
+const { Content, data } = await entry.render();
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{data.title}</title>
+  </head>
+  <body>
+    <h1>{data.title}</h1>
+    <p><em>{data.pubDate.toDateString()}</em></p>
+    <Content />
+  </body>
+</html>
+

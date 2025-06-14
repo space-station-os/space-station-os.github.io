@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+
+const allNews = await getCollection('news');
+// console.log(allNews);
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SSOS News</title>
+  </head>
+  <body>
+    <h1>SSOS News list</h1>
+    <ul>
+      {allNews.map(news => (
+        <li>
+          <a href={`/news/${news.slug}/`}>{news.data.title}</a> - {news.data.pubDate}</li>
+      ))}
+    </ul>
+  </body>
+</html>
+
